@@ -5,6 +5,8 @@
 
   <body>
 
+    {% include facebook.html %}
+    {% include gplus.html %}
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
@@ -13,9 +15,10 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
+          {% include gtranslator-body.html %}
         </div>
       </div>
 
@@ -43,5 +46,6 @@
         }, false);
       })(document);
     </script>
+    {% include analytics.html %}
   </body>
 </html>

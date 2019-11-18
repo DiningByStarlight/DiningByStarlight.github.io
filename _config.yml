@@ -1,22 +1,73 @@
+# Dependencies
+plugins:             [jekyll-paginate]
+#markdown:           redcarpet
+#highlighter:        pygments
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+title:               Dining by Starlight
+tagline:             "Restaurant reviews from across the world."
+description:         'A blog about our experiences dining at some of the finest restaurants in the world. Blog theme from <a href="https://twitter.com/mdo" target="_blank">@mdo</a> <a href="https://github.com/poole/lanyon" target="_blank">Lanyon</a>.'
+url:                 https://diningbystarlight.github.io
+baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Colette Lemans (fake name for now)
+  url:               myanimelist.com
+  email:             colettelemans@aol.com
 
 # Custom vars
-version:             1.0.0
+version:             1.0.3
+
+# This website's repo
+github:
+  repo:           https://github.com/DiningByStarlight/diningbystarlight.github.io
+
+exclude:
+  - templates
+  - LICENSE.md
+  - README.md
+  - LICENSE.lanyon
+  - README.lanyon
+
+## "Jekyll Now" template stuff here
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: DiningByStarlight
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: 
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: 
+
+# Personal work: load share buttons if setted to 'true'
+sharing:
+  addtoany: true
+  facebook: false
+  gplus: false
+
+# Google Translator support
+translate:
+  enabled: false
+  language: en
+  meta-config: b63bed9405924efe-1d1f2e87fc0bdbad-g105a614c17a1f5ce-12
