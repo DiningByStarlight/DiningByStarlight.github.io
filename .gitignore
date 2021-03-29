@@ -1,9 +1,13 @@
 # Jekyll generated website and stuff
 _site/
 .jekyll-metadata
+.jekyll-cache
 
 # Drafts, not to be published... yet.
 _drafts/
 
 # Folder in which I play with some templates
 templates/
+
+# Mac system files
+.DS_Store
