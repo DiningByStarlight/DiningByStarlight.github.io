@@ -1,8 +1,6 @@
 #!/bin/bash
 #
 # createTag
-# Copyright 2014-2015 Joe Friedrichsen
-# Licensed under the MIT License
 
 gitRepoRoot="$(git rev-parse --show-toplevel)"
 tagDataFile="${gitRepoRoot}/_data/tags.yml"
