@@ -5,6 +5,7 @@ title: Home
 {% include gtranslator-body.html %}
 <div class="posts">
   {% for post in paginator.posts %}
+  {% include tag_collector.html tag_separator=',' %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
@@ -12,7 +13,7 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} | {{ tag_list }}</span>
 
     {{ post.content }}
   </div>
