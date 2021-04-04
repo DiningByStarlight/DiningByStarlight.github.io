@@ -14,7 +14,7 @@ title:               Dining by Starlight
 tagline:             "Restaurant reviews from across the world."
 description:         'A blog about our experiences dining at some of the finest restaurants in the world.'
 url:                 https://diningbystarlight.github.io
-baseurl:             /
+baseurl:             ''
 paginate:            5
 
 # About/contact
