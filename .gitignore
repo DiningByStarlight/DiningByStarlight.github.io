@@ -11,3 +11,7 @@ templates/
 
 # Mac system files
 .DS_Store
+
+# other stuff to ignore
+Logo Drafts/
+buildcommand
