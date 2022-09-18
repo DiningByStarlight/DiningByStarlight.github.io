@@ -18,7 +18,9 @@ title: Home
     {% if post.summary-pic %}
     <img src="{{ post.summary-pic }}" title="source: imgur.com" />
     {% endif %}
-    {{ post.summary }}
+    {% if post.summary %}
+    {{ post.summary }} <a href="{{ post.url }}">More...</a>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
